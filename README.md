@@ -52,4 +52,4 @@ Test file using Jest to see if the shapes are collecting the correct attributes 
 ## Links
 
 Github:https://github.com/BenCuttance/SVG-logo-Maker
-Video Link:
+Video Link:https://drive.google.com/file/d/1VmsovqSdowzzherl0Y8wuW-iivd2qPGb/view
