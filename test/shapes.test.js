@@ -81,19 +81,15 @@ describe('Triangle tests', () => {
     expect(triangle.getContent()).toBe('Ben')
   });
   test('updated content', () => {
-    circle.setContent('Jam')
-    expect(circle.getContent()).toBe('Jam')
+    triangle.setContent('Jam')
+    expect(triangle.getContent()).toBe('Jam')
   })
   test('text content is white', () => {
-    expect(circle.getContentColour()).toBe('white')
+    expect(triangle.getContentColour()).toBe('white')
   });
   test('updated content', () => {
-    circle.setContentColour('black')
-    expect(circle.getContentColour()).toBe('black')
+    triangle.setContentColour('black')
+    expect(triangle.getContentColour()).toBe('black')
   })
 
 })
-// const Shapes = require('../lib/shapes');
-
-//expect(circle.builder()).tobe('<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="50" fill="green"/><text fill="white" x="35" y="50">Ben</text>
-//</svg>')
